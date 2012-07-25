@@ -1,0 +1,9 @@
+<a href="{{str[0]}}">Home</a>
+<a href="{{str[1]}}">Games</a>
+<a href="{{str[2]}}">Info</a>
+{% if content == 'games'%}
+  <a href="{{ url('game', {'id': '1'}) }}">
+    1 game
+  </a>
+{% endif %}
+{{content}}

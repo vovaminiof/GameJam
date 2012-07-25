@@ -1,0 +1,7 @@
+parameters:
+#    acme_jam_game.example.class: Acme\JamGameBundle\Example
+
+services:
+#    acme_jam_game.example:
+#        class: %acme_jam_game.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

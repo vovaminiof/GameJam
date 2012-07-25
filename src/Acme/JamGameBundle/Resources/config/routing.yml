@@ -1,0 +1,9 @@
+AcmeJamGameBundle_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: AcmeJamGameBundle:Default:index }
+pages:
+    pattern: /gamejam/{id}/{page}
+    defaults: { _controller: AcmeJamGameBundle:JamGame:pages, page: 'home', id: ''}
+game:
+    pattern: /game/{id}
+    defaults: { _controller: AcmeJamGameBundle:JamGame:game}
